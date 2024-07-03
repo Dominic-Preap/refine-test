@@ -86,7 +86,7 @@ export const BlogPostCreate = () => {
 
           <Controller
             control={control}
-            name="patient.name"
+            name="category"
             render={({ field: { onChange, value }, fieldState: { error } }) => (
               <CategorySearch
                 error={error?.message}
